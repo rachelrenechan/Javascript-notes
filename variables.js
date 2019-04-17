@@ -13,8 +13,8 @@ let greeting;
 // using const
 const name = 'Rachel';
 console.log(name); // prints Rachel in console.log
-// name = 'Sara'; 
-// console.log(name); // error in console log as const var cannot be reassigned
+name = 'Sara'; 
+console.log(name); // error in console log as const var cannot be reassigned
 
 // using const with objects
 const person = {
